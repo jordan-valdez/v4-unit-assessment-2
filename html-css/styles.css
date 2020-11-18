@@ -62,15 +62,84 @@ the font is called 'nunito' and can be found on google fonts
 */
 body{
     height: 150vh;
-    border: 5px solid black;
+
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: flex-start;
+	align-items: flex-start;
+	align-content: flex-start;
+    
 }
 header{
-    height: 15vh;
-    border: 5px solid red;
+    height: 70px;
+    width: 100%;
+    background-color: rgb(37, 37, 37);
     display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-	align-items: stretch;
+	align-items: center;
+    align-content: stretch;
+    position: sticky;
+    top: 0;
+}
+nav{
+    width: 25vw;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
 	align-content: stretch;
+}
+h1{
+    padding: 15px;
+    color: rgb(42, 171, 226);
+    font-size: 3em;
+}
+h2{
+    padding: 15px;
+    color: white;
+    font-size: 22px;
+}
+#main-body{
+    height: 1000px;
+    width: 100vw;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: flex-start;
+	align-content: flex-start;
+}
+h3{
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h4{
+    padding: 15px;
+
+
+}
+#text{
+    width: 70%;
+}
+#profile{
+    width: 400px;
+    border: 1px gray solid;
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: flex-start;
+}
+#profile-picture{
+    height: 300px;
 }
